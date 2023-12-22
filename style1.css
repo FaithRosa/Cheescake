@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HTML Styles */
+
+html {
+    background-color: #5c3317;
+}
+
+/* Body Styles */
+
+body {
+    margin: 0px 25px 0px 25px;
+}
+
+/* Header Styles*/
+header {
+    background-color: rgba(236, 211, 177, 0.753);
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    display: inline;
+    text-align: right;
+    color:#5c3317;
+}
+
+header > nav > a {
+    display: inline;
+    margin-left: 3em;
+    float: right;
+    text-align: left;
+    color:#5c3317;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+/* Nav Styles*/
+
+
+
+/* Article Styles*/
+
+article {
+    background-color: #411900;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    width: 100%;
+}
+#center {
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.37);
+    padding: 7em;
+    margin: 150px 500px;
+    color: white;
+}
+
+button {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.13);
+    padding: 1em 1em;
+    margin: 0px 50px 0px 150px;
+    font-size: 30px;
+    color: white;
+    border: 1px solid white;
+}
+
+button > h1 > a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+img {
+    width: 600px;
+    height: 700px;
+}
+
+/* Footer Styles*/
+
+footer {
+    background-color: rgba(236, 211, 177, 0.753);
+    padding: 5em;
+    text-align: center;
+}
+
+/* Psuedo Styles */
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+    transition: 0.2s ease-in-out;
+}
+
+
+button > h1 > a:hover {
+    color: #5c3317;
+    
+}
